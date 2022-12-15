@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+#background-video {
+    height: 110%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .logo, h2, #btnVideo {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+ .logo{
+     margin-top: 2%;
+    margin-left: 35%;
+    opacity: 0,7;
+    max-width: 400px;
+    max-height: 400px;
+    
+ }
+  
+  
+  #btnVideo {
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+
+.left{
+    display:inline-block;
+    justify-content: start;
+    padding-top: 0px;
+    
+    margin-left: 2%;
+    
+
+}
+.left .menu {
+    display: flex;              
+    padding:0;                 
+    justify-content: center ;
+    text-align: left;   
+    margin-left: 5%;
+    margin-top: 2%;  
+    
+  
+}
+.left .menu li{
+    list-style-type: none ;      
+    
+  }
+.left .menu a{  
+    display:flex;            
+    justify-content:space-around    ;            
+    text-align: center;             
+    color: white;                  
+    text-decoration: none;        
+    transition: all 1s ;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    cursor: pointer;
+    
+    }
+.left .menu a:hover {
+      color: #BE0F0F;
+      border-bottom: 1px solid #BE0F0F;
+      font-size: 15px;
+  }
+
+.right {
+    display:inline-block;
+    justify-content: end;         
+    padding:0;                   
+    margin-top: 3%;
+    margin-left: 43%; 
+    
+  
+}
+.right .test {
+    display:flex;            
+    justify-content:space-around;            
+    text-align: end;             
+    color: white;                  
+    text-decoration: none;        
+    transition: all 1s ;
+    margin-right: 25px;
+
+
+}
+.right a {
+    display:flex;            
+    justify-content:space-around    ;            
+    text-align: center;             
+    color: white;                  
+    text-decoration: none;        
+    transition: all 1s ;
+    margin-right: 10px;
+
+
+}
+.right a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.second_page {
+    margin-top: 8.5%;
+    width: 100%;
+    height: 400px;
+
+}
+.second_page .backgound{
+    width: 100%;
+    height: 100%;
+}
+
+.second_page .backgound #background-video-second-page {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+
+.second_page .backgound{
+    display: flex;
+    justify-content: center;  
+
+    
+  }
+.second_page .backgound img{
+    padding-top: 30%;
+    width: 400px;
+    height: 400px; 
+}
+
+
+.troisieme_page{
+    margin-top:23%;
+    width: 100%;
+    height: 100%;
+    background: url(image/bg-principal.jpg);
+
+}
+.troisieme_page .Title{
+    padding-top: 10px;
+    margin-left: 45%;
+    font-size: 20px;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    color: white;
+
+}
+
+.earth-attacke-logo{
+    background-color: #ac230b;
+    margin-left: 30%;
+    width: 500px;
+    height: 400px;
+}
+.earth-attacke-logo img{
+    width: 500px;
+    height: 400px;
+    
+}
+.Tourdates{
+    margin-top: 8%;
+    padding-bottom: 5%  ;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+.quatrieme_page {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background: url(image/andrew-kliatskyi-d3YXpAqdy2I-unsplash.jpg);
+
+}
+.quatrieme_page .video-LET {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+.quatrieme_page .video-REV {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.container-buttons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 32px;
+}
+
+.btn-buy {
+  overflow: hidden;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-buy::after {
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-color: #150404;
+  background-image: linear-gradient(
+    225deg,
+    #711d0e 0%,
+    #ac230b 50%,
+    #eb4a4a 100%
+  );
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.btn-buy:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5),
+    -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+
+.btn-buy:hover::after {
+  transform: rotate(150deg);
+}
+
+
+  .signup-box {
+    display: block;
+    margin: 0 auto;
+    width: 40em;
+    height: auto;
+    background: #fff;
+    padding: 4em 2em;
+  }
+  .signup-box .signup-form {
+    display: block;
+    margin: 0 auto;
+  }
+  .signup-form label, .signup-form input {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+
+  .signup-form select:-webkit-autofill {
+    border: 0;
+    border-bottom: 2px solid black;
+    -webkit-text-fill-color: black;
+  }
+  .signup-form label {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+  }
+  .signup-form .signup-input {
+    border: 0;
+    border-bottom: 2px solid #000;
+    margin-bottom: 2em;
+    font-size: 1em;
+    padding: 0.5em 0.25rem;
+  }
+  .signup-form .signup-input:focus {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #000;
+  }
+  .signup-form input[type="submit"] {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    background: #000;
+    padding: 1.25em 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    transition: 0.3s all ease-in-out;
+  }
+  .signup-form input[type="submit"]:hover {
+    background: #333;
+    padding: 1.25em 4em;
+    cursor: pointer;
+  }
+ 
+
+/* Pied de page */
+footer {
+
+    background-color: #000;
+    padding: 35px;
+    color: #fff;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  footer p{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  footer .social-media{
+    display: flex;
+  }
+  footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align:center;
+    width: 20px;
+    cursor:pointer;
+  }
+  /* Fin du pied de page */
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-earth-attack-final.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    
+    <title>Document</title>
+</head>
+<body>    
+      <div class="content">
+            <div class="nav">
+                <video id="background-video" autoplay loop muted>
+                    <source src="image/EARTH ATTACK - Let Me Out ( Official Music Video ).mp4" type="video/mp4">
+                </video>
+                <div class="left"> 
+                    <ul class="menu ">
+                        <li><a href="#ope-fracture" title="Nouveautés active"  class="fracture-nav">FRACTURE</a></li>
+                        <li><a href="#tour-logo" title="Nouveautés active" id="tour-nav"> TOUR</a></li>
+                        <li><a href="#videos-div-page" title="Nouveautés active"  id="videos-nav">VIDEOS</a></li>
+                        <li><a href="" title="Nouveautés active"  id="store-nav">STORE</a></li>
+                        <li><a href="#form-mail" title="Nouveautés active"  id="news-nav">NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="test">
+                        <a href="https://www.facebook.com/earthattack/" class="fac"><img src="image/logo/facebook (2)-modified.png" alt=""></a>
+                        <a href="" class="ins"><img src="image/logo/instagram (2)-modified.png" alt=""></a>
+                        <a href="https://twitter.com/band_attack" class="twi"><img src="image/logo/twitter (1)-modified (1).png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCMZVZklZls2UppKoCiA2czA" class="yout"><img src="image/logo/youtube (2)-modified.png" alt=""></a>
+                        <a href="https://open.spotify.com/artist/3vppTGRQJhWqqvfCjtKE6b" class="spot"><img src="image/logo/spotify-modified.png" alt=""></a>
+                        <a href="https://www.deezer.com/fr/artist/92032332" class="deezer"><img src="image/logo/deezer-logo (1).png" alt=""></a>
+                    </div>
+                </div>
+                <img class="logo" src="image/logo-0-blanc-sur-noir_-_min-jpeg-removebg-preview.png" alt=""> 
+                <button id="btnVideo" onclick="playAndPause()">Pause    </button>
+            </div>   
+    </div>
+      <script>
+        var video = document.getElementById("background-video");
+        var btn = document.getElementById("btnVideo");
+
+        function playAndPause () {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause II";
+        } else {
+            video.pause();
+            btn.innerHTML = "Play ▶";
+        }
+        }
+
+      </script>
+     <div class="second_page" id="ope-fracture">
+        <div class="backgound">
+            <video id="background-video-second-page" autoplay loop muted>
+                <source src="image/Cinematic Background HD.mp4" type="video/mp4">
+            </video>
+            <div class="fracture">
+                <img src="image/Fracture pochette - 1 .png" alt="">
+            </div>   
+        </div>
+        <div class="container-buttons">
+            <div class="buttons">
+              <a href="#" class="btn btn-buy">LISTEN NOW</a>
+            </div>
+          </div>
+    </div>
+    <div class="troisieme_page" id="tour-logo">     
+        <div class="Title">
+            <H1>TOUR</H1>
+        </div>
+        <div  class="earth-attacke-logo">
+            <img src="image/EA-LOGO-F2022-blanc---1---Copie-mininum-fin.jpg" alt="">
+        </div>
+        <div class="Tourdates">
+            <p>No tourdates currently</p>
+        </div>
+        
+    </div>
+    <div class="quatrieme_page"> 
+        <div id="videos-div-page"class="video-LET">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gurN-HSGUAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+        <div class="video-REV">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U22XI_mM-rI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+
+    </div>
+    <section id="contact">
+        <div class="wrapper">
+          <h2>Sign up for these news</h2>
+      
+          <div class="signup-box">
+            <form id="form-mail" class="signup-form">
+              <label for="email">Name</label>
+              <input type="text" name="name" class="signup-input">
+              <label for="name">E-mail</label>
+              <input type="email" name="email" class="signup-input">  
+              <input type="submit" value="sign me up">
+            </form>
+          </div>
+      
+        </div>
+      </section>
+        <!-- Pied de page -->
+    <footer>
+      <p>&copy; 2022. ALL RIGHT RESERVED</p>
+      <div class="social-media">
+        <p><i class="fab fa-facebook-f"></i></p>
+        <p><i class="fab fa-twitter"></i></p>
+        <p><i class="fab fa-instagram"></i></p>
+        
+      </div>
+    </footer>
+    <!-- Fin du pied de page -->
+    
+    
+</body>
+</html>
