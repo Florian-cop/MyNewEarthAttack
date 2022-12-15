@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+  height: 100%;
+  width: 100%;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top:1em ;
+
+}
+
+
+nav a.item_navigation {
+  vertical-align: middle;
+  font-family: Source Code Pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+}
+
+
+.background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.logo-earth-attack{
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+}
+
+.logo-earth-attack img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  z-index: -9;
+  opacity: 0.2;
+}
+.newalbum_center{
+  display: flex;
+  justify-content: center ;
+  margin-top: 9vh;  
+}
+.newalbum_center h2{
+  font-family: Source Code Pro;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  line-height: 1em;
+  color: gray;
+  z-index: 999;
+  font-weight:bolder;
+}
+
+
+.name_album{
+  display: flex;
+  justify-content: center ;
+}
+.name_album h1{
+  font-family: Source Code Pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+  color: #919aff;
+  list-style-type: none; 
+  text-transform: uppercase; 
+  z-index: 999;
+  
+}
+.lisen_now{
+  display: flex;
+  justify-content: center ;
+  z-index: 999; 
+}
+.lisen_now a{
+  font-family: Source Code Pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  line-height: 1em;
+  color: #b3a1a1;
+  list-style-type: none; 
+  text-transform: uppercase; 
+  z-index: 999;  
+}
+ 
